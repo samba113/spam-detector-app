@@ -6,9 +6,6 @@ nltk.data.path.append('nltk_data')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-# ✅ DOWNLOAD REQUIRED NLTK DATA (needed for Streamlit Cloud)
-nltk.download('stopwords')
-nltk.download('punkt')
 
 ps = PorterStemmer()
 
